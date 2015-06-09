@@ -3,32 +3,43 @@
   <head>
     <title>twe4ked studios</title>
     <style type="text/css" media="screen">
-      *{margin:0;padding:0;}
-      body{
-        font:14px/140% 'Helvetica Neue', Arial, Helvetica, Sans-Serif;
-        border:10px solid #222;
-        text-align:center;
-        position:absolute;
-        background:#191919;
-        padding:20% 0 0;
-        color:#eee;
-        bottom:0;
-        right:0;
-        left:0;
-        top:0;
-
-        /* Enrichment */
-        -webkit-box-shadow:inset 0 0 2px #000;
-           -moz-box-shadow:inset 0 0 2px #000;
-             -o-box-shadow:inset 0 0 2px #000;
-                box-shadow:inset 0 0 2px #000;}
-      h1{margin-bottom:20px;}
-      a{color:#fff;}
+      * { margin: 0; padding: 0; }
+      body {
+        font: 1em/2em Monaco, Monospace;
+        background: #3b3b3b;
+        color: #adadad;
+        padding: 10%;
+      }
+      h1 {
+        font-size: 1em;
+      }
+      h1 a {
+        color: #adadad;
+      }
+      a {
+        color: #cf6a4c;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      a:hover {
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+      .user, .host, .char {
+        color: #71b9f8;
+      }
+      .pwd {
+        color: #99ad6a;
+      }
     </style>
   </head>
   <body>
-    <h1>twe4ked studios</h1>
-    <p>My main website and blog is now <a href="http://odindutton.com/">odindutton.com</a>.</p>
+    <h1>
+      <span class=user>odin</span><a href=https://twitter.com/twe4ked>@<span class=host>twe4ked<span></a><span class=host>.com</span>
+      <span class=pwd>~/dev/twe4ked/twe4ked.com</span>
+      <span class=char>$</span>
+      cat hello.txt
+    </h1>
+    <p>Hello,<br>My main website and blog is now <a href="http://odindutton.com/">odindutton.com</a>.</p>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
